@@ -1,0 +1,1139 @@
+@font-face {
+  font-family: Agrandir Grand;
+  src: url('../fonts/Agrandir-GrandLight.otf') format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Agrandir;
+  src: url('../fonts/Agrandir-Regular.otf') format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Agrandir Tight;
+  src: url('../fonts/Agrandir-Tight.otf') format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Agrandir Tight;
+  src: url('../fonts/Agrandir-TightBlack.otf') format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Agrandir Tight;
+  src: url('../fonts/Agrandir-TightThin.otf') format("opentype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Agrandir Grand;
+  src: url('../fonts/Agrandir-GrandHeavy.otf') format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Agrandir Wide;
+  src: url('../fonts/Agrandir-WideBlackItalic.otf') format("opentype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Agrandir Text;
+  src: url('../fonts/Agrandir-TextBold.otf') format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Agrandir Narrow;
+  src: url('../fonts/Agrandir-Narrow.otf') format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Agrandir;
+  src: url('../fonts/Agrandir-ThinItalic.otf') format("opentype");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Agrandir Wide;
+  src: url('../fonts/Agrandir-WideLight.otf') format("opentype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Agrandir Narrow;
+  src: url('../fonts/Agrandir-NarrowBlack.otf') format("opentype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Agrandir Grand;
+  src: url('../fonts/Agrandir-Grand.otf') format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Agrandir;
+  src: url('../fonts/Agrandir-Italic.otf') format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Agrandir Grand;
+  src: url('../fonts/Agrandir-GrandItalic.otf') format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ogg roman;
+  src: url('../fonts/Ogg-Roman.otf') format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Ogg;
+  src: url('../fonts/Ogg-Italic.otf') format("opentype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Agrandir;
+  src: url('../fonts/Agrandir-TextBold.otf') format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --blue: #0000ec;
+}
+
+body {
+  color: #000;
+  cursor: none;
+  background-color: #fff;
+  font-family: degular-text, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  transition: color, opacity .5s;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: degular-text, sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+h2 {
+  letter-spacing: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Agrandir Grand, sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 22px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+a {
+  color: #000;
+  cursor: none;
+  text-decoration: none;
+}
+
+.utility-page-wrap {
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 100%;
+  display: flex;
+}
+
+.utility-page-content {
+  text-align: center;
+  flex-direction: column;
+  width: 260px;
+  display: flex;
+}
+
+.utility-page-form {
+  flex-direction: column;
+  align-items: stretch;
+  display: flex;
+}
+
+.div-project-left {
+  flex-direction: column;
+  width: 25%;
+  min-width: 25%;
+  transition: opacity .2s;
+  display: block;
+}
+
+.div-project-right {
+  padding-left: 20px;
+  position: static;
+  top: 30%;
+}
+
+.project-info {
+  margin-top: 0;
+  position: sticky;
+  top: 240px;
+}
+
+.div-separation {
+  background-color: #fff;
+  border-top: 2px solid #000;
+  height: 20px;
+  display: block;
+}
+
+.footer {
+  z-index: 10;
+  background-color: #fff;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  padding: 10px 60px;
+  display: block;
+  position: relative;
+  top: auto;
+  left: 0%;
+  right: 0%;
+  overflow: hidden;
+}
+
+.text-copyrights {
+  text-align: center;
+}
+
+.project-name {
+  margin-bottom: 10px;
+  font-family: Agrandir Grand, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 120%;
+}
+
+.project-main-section {
+  z-index: 20;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: stretch;
+  margin-top: 0;
+  padding-top: 80px;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+  position: relative;
+}
+
+.wrapper-main-section {
+  justify-content: center;
+  align-items: stretch;
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.rs-side {
+  z-index: 9000;
+  flex-direction: column;
+  justify-content: center;
+  width: 20px;
+  height: 100vh;
+  margin-right: 20px;
+  display: flex;
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+}
+
+.link-rs {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+.html-rs {
+  color: #0000ec;
+  transition: color .3s;
+}
+
+.buffer {
+  z-index: 5;
+  background-color: #fff;
+  height: 80px;
+  display: none;
+  position: relative;
+}
+
+.div-project-name {
+  margin-left: 25%;
+  padding-left: 20px;
+}
+
+.wrapper-project-name {
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.project-feature-image {
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50%;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1800px;
+  height: 100%;
+  margin-left: 60px;
+  margin-right: 60px;
+  display: flex;
+}
+
+.text-project-details {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.text-project-info {
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.heading-project-info {
+  font-family: Agrandir Grand, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.arrow {
+  color: #0000ec;
+  width: 30px;
+  height: 30px;
+}
+
+.link-next-section {
+  width: 25px;
+  height: 25px;
+}
+
+.link-next-section.project {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 25px;
+}
+
+.nav-menu {
+  z-index: 1;
+  background-color: #0000;
+  flex-direction: column;
+  position: fixed;
+  inset: 0%;
+}
+
+.wrapper-navbar {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 60px;
+  padding-right: 60px;
+  display: flex;
+}
+
+.nav-link {
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 40px 50px 30px;
+  font-family: Agrandir Grand, sans-serif;
+  font-size: 5vh;
+  font-weight: 900;
+  line-height: 120%;
+  transition: opacity .2s;
+}
+
+.nav-link:hover {
+  border-color: #fff;
+  font-family: Ogg, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.nav-link:focus {
+  font-family: Ogg, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+.nav-link.w--current {
+  color: #fff;
+  font-family: Ogg, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+.wrapper-nav-menu {
+  z-index: 8000;
+  background-color: #0000ec;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.navbar {
+  z-index: 100;
+  background-color: #0000;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  top: 0;
+}
+
+.burger {
+  color: #0000ec;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  transition: color .3s cubic-bezier(.455, .03, .515, .955);
+  display: block;
+  position: relative;
+}
+
+.burger:focus {
+  color: #000;
+}
+
+.menu-button {
+  z-index: 9000;
+  cursor: none;
+  background-color: #0000;
+  padding: 10px;
+}
+
+.menu-button.w--open {
+  color: #000;
+  background-color: #0000;
+}
+
+.home-link {
+  z-index: 9000;
+  padding-left: 0;
+}
+
+.close {
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  transition: color .3s cubic-bezier(.455, .03, .515, .955);
+  display: none;
+  position: relative;
+}
+
+.close:focus {
+  color: #000;
+}
+
+.logo {
+  color: #0000ec;
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  transition: color .3s cubic-bezier(.455, .03, .515, .955);
+}
+
+.link-top-page {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.arrow-top {
+  float: none;
+  color: #0000ec;
+  transition: color .3s;
+}
+
+.wrapper-link-top {
+  float: right;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  margin-right: 0;
+}
+
+.div-mask {
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.project-name-mask {
+  overflow: hidden;
+}
+
+.cursor {
+  z-index: 9999;
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  transition: opacity .2s ease-in-out;
+  display: flex;
+  position: fixed;
+  inset: 0%;
+}
+
+.dot {
+  background-color: var(--blue);
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+}
+
+.wrapper-next-section {
+  z-index: 30;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: absolute;
+  inset: 0%;
+}
+
+.cursor-arrow-link {
+  color: #000;
+  width: 90px;
+  height: 90px;
+  display: none;
+  position: absolute;
+}
+
+.circle {
+  z-index: 1;
+  opacity: 0;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0%;
+}
+
+.wrapper-nav-link {
+  z-index: 2;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.section-slider-project {
+  perspective: 1000px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 80px 60px;
+  display: flex;
+  overflow: hidden;
+}
+
+.slider {
+  width: 100%;
+  max-width: 798px;
+  height: 100%;
+  max-height: 532px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-slider {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.project-list, .project-list-wrapper {
+  height: 100%;
+}
+
+.project-item {
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50%;
+  background-size: cover;
+  height: 100%;
+}
+
+.slider-left-arrow {
+  cursor: none;
+  width: 200px;
+  margin-left: -100px;
+}
+
+.cursor-arrow-slider {
+  color: var(--blue);
+  width: 90px;
+  height: 90px;
+  display: none;
+  position: absolute;
+}
+
+.slider-project-name {
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: Agrandir Grand, sans-serif;
+  font-weight: 900;
+  line-height: 35px;
+  position: absolute;
+  inset: auto;
+}
+
+.div-slider-black {
+  opacity: .7;
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0% 0% auto;
+}
+
+.icon, .icon-2, .slide-nav {
+  display: none;
+}
+
+.slider-right-arrow {
+  cursor: none;
+  width: 200px;
+  margin-right: -100px;
+}
+
+.outer-circle {
+  border: 2px solid var(--blue);
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  display: none;
+  position: absolute;
+}
+
+.section-project {
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+  padding: 80px 60px;
+  transition: transform .3s cubic-bezier(.23, 1, .32, 1);
+  display: flex;
+}
+
+.collection-list-wrapper {
+  max-width: 1140px;
+}
+
+.link-block {
+  margin-bottom: 100px;
+}
+
+.wrapper-project-feature {
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: flex;
+}
+
+.wrapper-slider {
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.header {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.id {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .div-project-left {
+    width: auto;
+    min-width: auto;
+    margin-right: 0;
+  }
+
+  .div-project-right {
+    margin-top: 20px;
+    padding-left: 0;
+  }
+
+  .project-info {
+    margin-top: 0;
+    position: static;
+  }
+
+  .div-separation {
+    height: 25px;
+    margin-left: 0;
+  }
+
+  .footer {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .project-name {
+    margin-left: 0;
+  }
+
+  .project-main-section {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .wrapper-main-section {
+    display: block;
+  }
+
+  .rs-side {
+    width: auto;
+    height: auto;
+    display: block;
+    inset: auto 0% 0% auto;
+  }
+
+  .link-rs {
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+
+  .buffer {
+    height: 60px;
+  }
+
+  .div-project-name {
+    margin-left: 0%;
+    padding-left: 0;
+  }
+
+  .project-feature-image {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .wrapper-navbar {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .nav-link:hover {
+    border-color: #0000;
+  }
+
+  .cursor {
+    display: none;
+  }
+
+  .wrapper-nav-link {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .section-slider-project {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .slide-1 {
+    height: 100%;
+  }
+
+  .slider-left-arrow {
+    width: 150px;
+    margin-left: 0;
+  }
+
+  .slider-project-name, .div-slider-black {
+    display: none;
+  }
+
+  .slider-right-arrow {
+    width: 150px;
+    margin-right: 0;
+  }
+
+  .section-project {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .wrapper-project-feature {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .div-separation {
+    height: 20px;
+  }
+
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .project-name {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .project-main-section {
+    padding-top: 40px;
+  }
+
+  .project-feature-image {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .text-project-details, .text-project-info, .heading-project-info {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .nav-link {
+    padding: 20px 30px 15px;
+    font-size: 7vw;
+  }
+
+  .wrapper-nav-link {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .slider-left-arrow, .slider-right-arrow {
+    width: 120px;
+  }
+
+  .section-project {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .link-block {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .div-project-right {
+    margin-top: 20px;
+  }
+
+  .div-separation {
+    height: 20px;
+  }
+
+  .footer {
+    text-align: left;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .text-copyrights {
+    font-size: 14px;
+  }
+
+  .project-name {
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 100%;
+  }
+
+  .project-main-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .project-feature-image {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .text-project-details {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .text-project-info {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .heading-project-info {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .wrapper-navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .nav-link {
+    font-size: 8vw;
+  }
+
+  .wrapper-nav-menu {
+    padding-bottom: 80px;
+  }
+
+  .div-mask {
+    margin-bottom: 10px;
+  }
+
+  .wrapper-nav-link {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .section-slider-project {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .slider {
+    width: 100%;
+    max-width: 399px;
+    height: 40%;
+    max-height: 399px;
+  }
+
+  .slider-left-arrow, .slider-right-arrow {
+    width: 80px;
+  }
+
+  .section-project {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .link-block {
+    margin-bottom: 40px;
+  }
+}
+
+
+@font-face {
+  font-family: 'Agrandir Grand';
+  src: url('../fonts/Agrandir-GrandLight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Agrandir';
+  src: url('../fonts/Agrandir-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Agrandir Tight';
+  src: url('../fonts/Agrandir-Tight.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Agrandir Tight';
+  src: url('../fonts/Agrandir-TightBlack.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Agrandir Tight';
+  src: url('../fonts/Agrandir-TightThin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Agrandir Grand';
+  src: url('../fonts/Agrandir-GrandHeavy.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Agrandir Wide';
+  src: url('../fonts/Agrandir-WideBlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Agrandir Text';
+  src: url('../fonts/Agrandir-TextBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Agrandir Narrow';
+  src: url('../fonts/Agrandir-Narrow.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Agrandir';
+  src: url('../fonts/Agrandir-ThinItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Agrandir Wide';
+  src: url('../fonts/Agrandir-WideLight.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Agrandir Narrow';
+  src: url('../fonts/Agrandir-NarrowBlack.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Agrandir Grand';
+  src: url('../fonts/Agrandir-Grand.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Agrandir';
+  src: url('../fonts/Agrandir-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Agrandir Grand';
+  src: url('../fonts/Agrandir-GrandItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ogg roman';
+  src: url('../fonts/Ogg-Roman.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ogg';
+  src: url('../fonts/Ogg-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Agrandir';
+  src: url('../fonts/Agrandir-TextBold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
