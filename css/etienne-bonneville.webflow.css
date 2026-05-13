@@ -366,15 +366,15 @@ a {
   line-height: 30px;
 }
 
-.arrow {
+.arrow-down {
   color: #0000ec;
   width: 30px;
   height: 30px;
 }
 
 .link-nextsection {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
 }
 
 .link-nextsection.project {
